@@ -1,0 +1,33 @@
+.card {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.7rem;
+  padding: 2rem 1.5rem;
+
+  //   background-image: linear-gradient(rgb(0 0 0 / 0) 20%, rgb(0, 0, 0));
+  background-color: rgba($color: #000000, $alpha: 0.4);
+}
+
+.card {
+  h4,
+  p {
+    position: relative;
+    z-index: 2;
+    color: white;
+  }
+}
+
+.card {
+  cursor: pointer;
+
+  &:hover {
+    transition: 0.5s;
+    background-color: rgba($color: #000000, $alpha: 0.1);
+
+    // background-image: linear-gradient(rgb(0 0 0 / 0) 50%, rgb(0, 0, 0));
+  }
+}

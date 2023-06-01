@@ -1,5 +1,6 @@
 import React from 'react';
-import Direction, { DirectionProps } from './Direction';
+import Direction, { DirectionProps } from './Direction/Direction';
+import shrek from '@/public/shrek.jpeg'
 
 const Directions = () => {
   const directions: DirectionProps[] = [
@@ -7,21 +8,43 @@ const Directions = () => {
       id: '0',
       header: 'Lorem ipsum dolor sit amet.',
       text: 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.',
+      image: shrek,
     },
     {
       id: '1',
       header: 'Lorem ipsum dolor sit amet.',
       text: 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.',
+      image: shrek,
     },
     {
       id: '2',
       header: 'Lorem ipsum dolor sit amet.',
       text: 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.',
+      image: shrek,
     },
     {
       id: '3',
       header: 'Lorem ipsum dolor sit amet.',
       text: 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.',
+      image: shrek,
+    },
+    {
+      id: '4',
+      header: 'Lorem ipsum dolor sit amet.',
+      text: 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.',
+      image: shrek,
+    },
+    {
+      id: '5',
+      header: 'Lorem ipsum dolor sit amet.',
+      text: 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.',
+      image: shrek,
+    },
+    {
+      id: '6',
+      header: 'Lorem ipsum dolor sit amet.',
+      text: 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.',
+      image: shrek,
     },
   ];
   return (
