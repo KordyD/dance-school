@@ -11,8 +11,8 @@ const Header = () => {
       <Image src={logo} alt='logo' height={120} />
       <div>
         <div className={styles.contacts}>
-          <a href='#' className={styles.number}>
-            +79532606874
+          <a href='tel:+79532606874' className={styles.number}>
+            +7 (953) 260-68-74
           </a>
           <a href='#' className={styles.vk}>
             <FontAwesomeIcon icon={faVk} />
