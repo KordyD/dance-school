@@ -6,7 +6,7 @@ const MainHeader = () => {
   return (
     <div className={styles.wrapper}>
 
-      <Image className={styles.mainImage} style={{objectFit: 'cover'}} src={shrek} alt='shrek' fill />
+      <Image style={{objectFit: 'cover', zIndex: '-1'}} src={shrek} alt='shrek' fill />
 
       <div className={styles.textWrapper}>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
