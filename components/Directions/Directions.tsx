@@ -3,6 +3,8 @@ import Direction, { DirectionProps } from './Direction/Direction';
 import styles from './Directions.module.scss';
 import shrek from '@/public/shrek.jpeg';
 
+// TODO: background images
+
 const Directions = () => {
   const directions: DirectionProps[] = [
     {

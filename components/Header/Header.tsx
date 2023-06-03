@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faVk } from '@fortawesome/free-brands-svg-icons';
 
+// TODO: position sticky
+
 const Header = () => {
   return (
     <header className={styles.header}>

@@ -3,6 +3,7 @@ import Header from '@/components/Header/Header';
 import MainHeader from '@/components/MainHeader/MainHeader';
 import Photos from '@/components/Photos/Photos';
 
+// TODO: fix uniform styling
 
 export default function Home() {
   return (
@@ -11,11 +12,11 @@ export default function Home() {
       <MainHeader />
       <Directions />
       <Photos />
-      Reviews
+      {/* Reviews
       Map
       Sign up
       Offers
-      Footer
+      Footer */}
     </>
   );
 }
